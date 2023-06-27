@@ -2,12 +2,13 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 
 main {
   width: 100vw;
   height: 100vh;
+  max-width: 100%;
 }
 
 .my_project__title {
@@ -19,6 +20,7 @@ main {
 
 .title_img {
   width: 50px;
+  max-width: 100%;
 }
 
 .title {
